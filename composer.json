@@ -1,0 +1,21 @@
+{
+    "name": "rfmhb2/convert-migrations",
+    "description": "Artisan command to convert your current SQL database schema into a Laravel Migration file.",
+    "authors": [
+        {
+            "name": "mhbolivand",
+            "email": "mohammadhassanbolivand@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "6.*",
+        "illuminate/console": "6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rfmhb2\\ConvertMigrations": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
