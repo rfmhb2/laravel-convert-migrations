@@ -243,7 +243,6 @@ public function down()
                 );
             }
         }
- 
         return self::$instance;
     }
 }
